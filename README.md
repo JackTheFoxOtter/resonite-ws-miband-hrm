@@ -1,5 +1,5 @@
 # Resonite Websocket Miband HRM
-This is a super rudimentary adapter to connect a ProtoFlux websocket client (or any websocket client really) to a heartbeat tracking wristband I quickly whippped together to help a user on Resonite.
+This is a super rudimentary adapter to connect a ProtoFlux websocket client (or any websocket client really) to a heartbeat tracking wristband I quickly whipped together to help a user on Resonite.
 
 It's based on https://vard88508.github.io/vrc-osc-miband-hrm/, which implements a browser interface that connects to the wristband via Bluetooth and then connects to the vrc-osc-hrm.exe via websocket, which forwards the messages as OSC to VRChat.
 This script basically replaces that executable, so the website talks directly to the relay script, which will forward all messages it receives to every connected websocket client.
