@@ -8,7 +8,7 @@ This script basically replaces that executable, so the website talks directly to
 1. Install required package with pip (pip install websockets)
 2. Launch this script (python -m ./server.py)
 3. Open https://vard88508.github.io/vrc-osc-miband-hrm/html/ in your browser, it should automatically connect to the relay (on ws://localhost:3228)
-4. in your browser and connect your heartrate monitor
+4. Connect your heartrate monitor (Follow instructions https://vard88508.github.io/vrc-osc-miband-hrm/#usage, just launch this script instead of the vrc-osc-hrm.exe)
 5. Connect a compatible websocket client (for example implemented in ProtoFlux for Resonite) to ws://localhost:3229
 
 That's it! The websocket client should now receive every message sent by the heartbeat tracking wristband.
